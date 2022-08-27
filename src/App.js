@@ -1,6 +1,6 @@
 
 import './App.css';
-import { useState } from 'react';
+
 import * as React from "react";
 
 let dropdowns = [
@@ -59,7 +59,7 @@ export default function App() {
                     }
                     //From(selectedItem);
                     setValues(selectedItem)
-                    console.log(selectedItem);
+                    //console.log(selectedItem);
                     return selectedItem;
                   })
                 : [{ [dropdown.name]: event.target.value }];
